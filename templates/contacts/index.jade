@@ -9,13 +9,14 @@ html(lang="en")
         .page-header
             +header
         .full-wrapper
+            .form-alert
             section.top-section
                 h1 Contacts
                 p We’re the #1 Yoga destination in LA!
             section.content-section
                 p Address: 6036 Richmond hwy., Alexandria, VA 2230 Let’s talk&nbsp;
                     a(href="tel:7033290632") (703) 329-06-32
-                p.small We are working on:
+                p.small.mt We are working on:
                 .timesheet
                     .row
                         p Monday – Thursday:
@@ -29,17 +30,17 @@ html(lang="en")
                 .contactform
                     .row
                         p.label Name:
-                        input(type="text" placeholder="Enter your name")
+                        input(name="name" type="text" placeholder="Enter your name")
                     .row
                         p.label E-mail:
-                        input(type="mail" placeholder="Enter your e-mail")
+                        input(name="mail" type="mail" placeholder="Enter your e-mail")
                     .row
                         p.label Phone:
-                        input(type="tel" placeholder="Enter your phone")
+                        input(name="phone" type="tel" placeholder="Enter your phone")
                     .row
                         p.label Message
-                        input(type="text" placeholder="Enter your message")
-                    .button
+                        input(name="message" type="text" placeholder="Enter your message")
+                    .button.submit
                         span SUBMIT
             .map
                 iframe(

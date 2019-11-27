@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32c2fa34-7112-41ff-89ba-e3d3d57859a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sass/sections/_about.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/sections/_contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/contacts/index.jade" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/contacts/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/helpers/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/helpers/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/sections/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/sections/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/sections/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/sections/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/sections/_homePage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/sections/_homePage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_components/_foot.jade" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_components/_foot.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_components/_head.jade" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_components/_head.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/page/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about/index.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/sections/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/sections/_contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contacts/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contacts/index.jade" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,11 +62,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/contacts/index.jade">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="833">
-                  <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+                <state relative-caret-position="697">
+                  <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="493">
+                  <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -98,8 +96,8 @@
           <file leaf-file-name="_contacts.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/sass/sections/_contacts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="25" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -125,6 +123,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>739ba3</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -134,7 +137,6 @@
         <option value="$PROJECT_DIR$/sass/helpers/_functions.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/_components/_head.jade" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/templates/index.jade" />
         <option value="$PROJECT_DIR$/templates/_components/_foot.jade" />
         <option value="$PROJECT_DIR$/sass/sections/_homePage.scss" />
@@ -146,6 +148,7 @@
         <option value="$PROJECT_DIR$/sass/app.scss" />
         <option value="$PROJECT_DIR$/templates/contacts/index.jade" />
         <option value="$PROJECT_DIR$/sass/sections/_contacts.scss" />
+        <option value="$PROJECT_DIR$/js/app.js" />
       </list>
     </option>
   </component>
@@ -258,30 +261,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574792009616</updated>
-      <workItem from="1574792011231" duration="18125000" />
+      <workItem from="1574792011231" duration="19819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18125000" />
+    <option name="totallyTimeSpent" value="19819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="86" y="-8" width="1842" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11259013" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" side_tool="true" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.0" />
+      <window_info id="Gulp" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11259013" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,9 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/app.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/sections/_homePage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4709">
@@ -377,13 +377,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contacts/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/sections/_about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -391,10 +384,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contacts/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/sections/_contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
         </state>
       </provider>
     </entry>
