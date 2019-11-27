@@ -1,9 +1,29 @@
 mixin foot
     - var rand = Math.random()
+    script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js")
     script(src='/js/app.js?v='+rand)
 mixin footer
+    .testimonials
+        h2 TESTIMONIALS
+        .carousel
+            .block
+                .photo
+                    img(src="" alt="")
+                p Before I was referred here by my old friend Janette, I never considered the fitness workout routine to be so efficient. Now, my body proves me wrong!
+                p.name -EMMA POPPURI
+            .block
+                .photo
+                    img(src="" alt="")
+                p Before I was referred here by my old friend Janette, I never considered the fitness workout routine to be so efficient. Now, my body proves me wrong!
+                p.name -EMMA POPPURI
+            .block
+                .photo
+                    img(src="" alt="")
+                p Before I was referred here by my old friend Janette, I never considered the fitness workout routine to be so efficient. Now, my body proves me wrong!
+                p.name -EMMA POPPURI
     .footer
-        .top.row
+        .top
             .social
                 a(href="#")
                     img(src="" alt="")
@@ -14,4 +34,4 @@ mixin footer
                 a(href="#")
                     img(src="" alt="")
             a(href="tel:7033290632") (703) 329-06-32
-        p.coopyrite © 2019 All rights reserved by Namaste.
+        p.cooperate © 2019 All rights reserved by Namaste.

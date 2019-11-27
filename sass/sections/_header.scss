@@ -4,6 +4,9 @@
   top: 0;
   left: 0;
   z-index: 10;
+  @media(max-width: $sm-screens){
+    background: $grey;
+  }
   &__content{
     width: 100%;
     display: flex;
@@ -11,6 +14,9 @@
     align-items: center;
     box-sizing: border-box;
     padding: 30px 60px 0;
+    @media(max-width: $sm-screens){
+      padding: 30px 20px;
+    }
     .logo{
       a h1{
         color: $dark-black;
@@ -25,10 +31,42 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media(max-width: $sm-screens){
+          position: absolute;
+          flex-direction: column;
+          width: 100%;
+          box-sizing: border-box;
+          padding: 15px;
+          left: 0;
+          top: 85px;
+          background: $grey;
+          -webkit-transform: scaleY(0);
+          -moz-transform: scaleY(0);
+          -ms-transform: scaleY(0);
+          -o-transform: scaleY(0);
+          transform: scaleY(0);
+          transition: transform .3s;
+          transform-origin: top;
+          &.open{
+            -webkit-transform: scaleY(1);
+            -moz-transform: scaleY(1);
+            -ms-transform: scaleY(1);
+            -o-transform: scaleY(1);
+            transform: scaleY(1);
+          }
+        }
+        li{
+          @media(max-width: $sm-screens){
+            margin-bottom: 8px;
+          }
+        }
         li a{
           font-size: fontSize(18);
           color: $dark-black;
           position: relative;
+          @media(max-width: $mb-screens){
+            font-size: 20px;
+          }
           &:after{
             content: '';
             display: block;
@@ -63,12 +101,36 @@
       @media(max-width: $sm-screens){
         display: block;
       }
+      &.open{
+        span{
+          &:first-child{
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+          &:nth-child(2){
+            display: none;
+          }
+          &:last-child{
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+            margin-top: -8px;
+          }
+        }
+      }
       span{
         display: block;
         width: 100%;
         height: 5px;
         margin-bottom: 3px;
-        background: #fff;
+        background: $dark-black;
+        transition: all .3s;
+        transform-origin: center;
       }
     }
   }

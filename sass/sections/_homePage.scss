@@ -8,6 +8,12 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      @media(max-width: $md-screens){
+        padding: tH(200) 20px tH(20);
+      }
+      @media(max-width: $mb-screens){
+        padding-top: 160px;
+      }
       h2{
         color: $dark-black;
         font-size: fontSize(32);
@@ -19,6 +25,12 @@
         font-size: fontSize(48);
         line-height: 1;
         margin-bottom: calculateHeight(260);
+        @media(max-width: $md-screens){
+          margin-bottom: tH(120);
+        }
+        @media(max-width: $mb-screens){
+          margin-bottom: 25px;
+        }
       }
       .bottom{
         p{
@@ -27,6 +39,9 @@
           line-height: 2;
           margin-bottom: calculateHeight(30);
           letter-spacing: 2px;
+          @media(max-width: $mb-screens){
+            font-size: 16px;
+          }
         }
         a{
           display: flex;
@@ -38,6 +53,9 @@
           border-radius: 5px;
           width: 350px;
           transition: box-shadow .3s;
+          @media(max-width: $mb-screens){
+            width: 100%;
+          }
           &:hover{
             -webkit-box-shadow: -5px 5px 20px -1px rgb(24, 27, 48);
             -moz-box-shadow: -5px 5px 20px -1px rgb(24, 27, 48);
@@ -53,6 +71,9 @@
     .content-section{
       box-sizing: border-box;
       padding: calculateHeight(160) calculateWidth(60);
+      @media(max-width: $md-screens){
+        padding: tH(60) 20px;
+      }
       h2{
         text-align: center;
         margin-bottom: calculateHeight(110);
@@ -69,6 +90,10 @@
           align-items: center;
           position: relative;
           margin-bottom: 30px;
+          @media(max-width: $mb-screens){
+            width: 46%;
+            margin-bottom: 46px;
+          }
           &:after {
             content: "";
             display: block;
@@ -117,9 +142,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         img{
           width: 50%;
           height: auto;
+          @media(max-width: $md-screens){
+            width: 100%;
+          }
         }
         .block{
           width: 50%;
@@ -127,6 +156,10 @@
           background: #d3e5e9;
           box-sizing: border-box;
           padding: calculateHeight(120) calculateWidth(25);
+          @media(max-width: $md-screens){
+            width: 100%;
+            padding: tH(30) tW(20);
+          }
           h3{
             font-size: fontSize(24);
             text-align: center;
@@ -163,6 +196,83 @@
               }
             }
           }
+        }
+      }
+      .coaches{
+        margin-top: calculateHeight(60);
+        h2{
+          text-align: center;
+          margin-bottom: calculateHeight(110);
+          @media(max-width: $mb-screens){
+            margin-bottom: 25px;
+          }
+        }
+        p{
+          text-align: center;
+          font-size: fontSize(18);
+          line-height: 2;
+          letter-spacing: 1.3px;
+          margin-bottom: calculateHeight(60);
+          color: $dark-black;
+        }
+        .grid{
+          display: flex;
+          justify-content: space-between;
+          .col{
+            width: 25%;
+            @media(max-width: $sm-screens){
+              width: 100%;
+              margin-bottom: 12px;
+            }
+            img{
+              width: 100%;
+              height: auto;
+              display: block;
+              margin: 0 auto 20px;
+            }
+            h4.name{
+              font-size: fontSize(22);
+              text-align: center;
+              color: $dark-black;
+            }
+          }
+        }
+      }
+    }
+    .paper-block{
+      width: 100%;
+      box-sizing: border-box;
+      padding: calculateHeight(60) calculateWidth(60);
+      h2{
+        color: $dark-black;
+        font-size: fontSize(36);
+        line-height: 1;
+        margin-bottom: 36px;
+      }
+      p{
+        font-size: fontSize(18);
+        line-height: 2;
+        letter-spacing: 1.3px;
+        margin-bottom: 20px;
+        color: $dark-black;
+      }
+      a{
+        margin: 0 0 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 260px;
+        height: 45px;
+        background: $dark-black;
+        border-radius: 5px;
+        @media(max-width: $mb-screens){
+          width: 100%;
+          margin: 0 auto;
+        }
+        span{
+          font-size: 18px;
+          letter-spacing: 1.13px;
+          color: $white;
         }
       }
     }

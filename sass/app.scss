@@ -37,9 +37,19 @@ h2{
   line-height: 1;
 }
 
+.slick-prev{
+  left: -15px !important;
+}
+
+.slick-next{
+  right: -15px !important;
+}
+
 // components
 @import "sections/header";
 @import "sections/footer";
 
 // pages
 @import "sections/homePage";
+@import "sections/about";
+@import "sections/contacts";

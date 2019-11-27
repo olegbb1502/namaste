@@ -1,0 +1,94 @@
+.testimonials{
+  margin: calculateHeight(60) 0;
+  background: $grey;
+  box-sizing: border-box;
+  padding: calculateHeight(55) calculateWidth(60) calculateHeight(75);
+  color: $dark-black;
+  @media(max-width: $mb-screens){
+    padding: 20px;
+  }
+  h2{
+    text-align: center;
+    font-size: fontSize(32);
+    margin-bottom: 30px;
+    color: inherit;
+  }
+  .carousel{
+    .block{
+      .photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 30px;
+        @media(max-width: $mb-screens){
+          width: 100px;
+          height: 100px;
+        }
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+      p{
+        font-size: fontSize(18);
+        text-align: center;
+        color: inherit;
+        &.name{
+          font-weight: bold;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+.footer{
+  width: 100%;
+  background: $dark-black;
+  box-sizing: border-box;
+  padding: calculateHeight(60) calculateWidth(60);
+  @media(max-width: $mb-screens){
+    padding: 20px;
+  }
+  .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    @media(max-width: $mb-screens){
+      margin-bottom: 25px;
+      flex-direction: column;
+    }
+    .social{
+      display: flex;
+      align-items: center;
+      @media(max-width: $mb-screens){
+        justify-content: space-between;
+      }
+      a{
+        width: 25px;
+        height: 25px;
+        display: block;
+        &:not(:first-child){
+          margin-left: 8px;
+          @media(max-width: $mb-screens){
+            margin-left: 0;
+          }
+        }
+      }
+    }
+    a{
+      font-size: fontSize(18);
+      color: $white;
+
+    }
+  }
+  p.cooperate{
+    font-size: fontSize(22);
+    text-align: center;
+    color: $white;
+  }
+}

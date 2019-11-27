@@ -1,0 +1,52 @@
+include ../_components/_head
+include ../_components/_foot
+
+doctype html
+html(lang="en")
+    head
+        +head('Namaste', 'New template description')
+    body.page.about
+        .page-header
+            +header
+        .full-wrapper
+            section.top-section
+                h1 About
+                p Welcome to the best Yoga studio in LA!
+            section.content-section
+                h2 Is Yoga Good for Your Health?
+                .grid
+                    .box
+                        p While the short answer to that question is a simple yes, the longer answer also encompasses how good it is both for your physical & mental health.
+                    .box
+                        p Known for providing long-lasting emotional & psychological relief and treating all types of anxieties, clinical depressions and getting rid of stress, yoga also enhances your body.
+                    .box
+                        p With a variety of asanas (postures) all meant to make particular parts of your body stronger and healthier, yoga has something to offer to anyone!
+            .started
+                .row.img
+                    img(src="")
+                    img(src="")
+                .block
+                    h2 How it all started...
+                    .row
+                        p.col Founded back in 1983, when the word yoga wasn’t resonating with the American public just as much as it does now. Now we’re the biggest best yoga destination in a 100 miles range!
+                        p.col Also, the fact that we’ve got some of the best yoga coaches on our team adds up to our popularity & high quality!
+            .numbers
+                .row
+                    .col
+                        .number
+                            span 6
+                        p.descr Classes
+                    .col
+                        .number
+                            span 20
+                        p.descr Awards
+                    .col
+                        .number
+                            span 5
+                        p.descr Experienced Coaches
+                    .col
+                        .number
+                            span 90
+                        p.descr Attendees
+            +footer
+        +foot
