@@ -26,7 +26,7 @@
     "gulp-babel": "^8.0.0",
     "gulp-clean": "^0.4.0",
     "gulp-jade": "^1.1.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "natives": "^1.1.6",
     "node": "^10.7.0",
     "slick-carousel": "^1.8.1",
